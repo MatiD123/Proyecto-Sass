@@ -1,0 +1,26 @@
+@import "./base/reset";
+
+
+/*grids**/
+.container-grid {
+    display: grid;
+    height: 100vh;
+    width: 100%;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-areas: "header header header header" "main main main main" "main main main main" "main main main main" "footer footer footer footer";
+}
+
+@import "./base/typo";
+@import "./utilities/variable";
+@import "./utilities/mixins";
+@import "./layout/header";
+@import "./layout/footer";
+@import "./layout/main-index";
+@import "./layout/main-acerca";
+@import "./layout/main-contactos";
+@import "./layout/main-preguntas";
+@import "./layout/main-productos";
+@import "./components/buttons";
+@import "./layout/media-tablet";
+@import "./layout/media-mobile";

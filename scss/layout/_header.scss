@@ -1,0 +1,51 @@
+/**header*/
+
+header {
+    grid-area: header;
+    background: linear-gradient(to left, #FFC837, #FF8008);
+    padding: 1.5rem 1.0rem;
+
+    a {
+        color: white;
+        text-decoration: none;
+        font-family: $font-family-secundario;
+        font-size: 1.3rem;
+    }
+}
+
+.container-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.titulo {
+    font-family: $font-family-principal;
+    font-size: 3.0rem;
+}
+
+.menu-icon {
+    display: none;
+}
+
+.navigation ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    li {
+        display: inline-block;
+
+        a {
+            display: block;
+            padding: 1.0rem 1.0rem;
+            transition: all 0.4s linear;
+            border-radius: 1.5px;
+
+            &:hover {
+                background-color: rgb(104, 109, 107);
+            }
+        }
+    }
+}
