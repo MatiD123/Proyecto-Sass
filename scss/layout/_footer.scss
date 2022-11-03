@@ -1,49 +1,48 @@
 footer {
-    grid-area: footer;
-    background: #FF8008;
-    background: $fondo-gradiente;
-    margin-top: auto;
-    width: 100%;
-    position: bottom;
+  grid-area: footer;
+  background: $fondo-gradiente;
+  margin-top: auto;
+  width: 100%;
+  position: bottom;
+}
+
+.container-footer {
+  margin: auto;
+}
+
+.lista-footer {
+  list-style: none;
+}
+
+.footer-col {
+  width: 25%;
+  padding: 1.0rem 1.5rem;
+
+  h4 {
+    font-family: $font-family-secundario;
+    font-size: 1.5rem;
+    color: white;
+    text-transform: capitalize;
+    margin-bottom: 0.5rem;
+    position: relative;
   }
-  
-  .container-footer {
-    margin: auto;
+
+  ul li a {
+    font-size: 1.3rem;
+    text-decoration: none;
+    display: block;
+    color: rgb(5, 5, 4);
   }
-  
-  .lista-footer {
-    list-style: none;
-  }
-  
-  .footer-col {
-    width: 25%;
-    padding: 1.0rem 1.5rem;
-  
-    h4 {
-      font-family: $font-family-secundario;
-      font-size: 1.5rem;
-      color: white;
-      text-transform: capitalize;
-      margin-bottom: 0.5rem;
-      position: relative;
-    }
-  
-    ul li a {
-      font-size: 1.3rem;
-      text-decoration: none;
-      display: block;
-      color: rgb(5, 5, 4);
-    }
-  }
-  
-  .footer-row {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-  }
-  
-  .redes-sociales {
-    padding: 0.5rem 0;
-    display: flex;
-    justify-content: space-evenly;
-  }
+}
+
+.footer-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.redes-sociales {
+  padding: 0.5rem 0;
+  display: flex;
+  justify-content: space-evenly;
+}

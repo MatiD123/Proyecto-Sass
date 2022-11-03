@@ -55,6 +55,10 @@ header {
       .navigation ul li a:hover {
         background-color: #686d6b; }
 
+/**main**/
+main {
+  grid-area: main; }
+
 footer {
   grid-area: footer;
   background: #FF8008;

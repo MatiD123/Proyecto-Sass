@@ -2,8 +2,7 @@
     .container-grid {
         height: 100vh;
         width: auto;
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(5, 1fr);
+        @include grid (1fr, 1fr 1fr 1fr 1fr 1fr);
         grid-template-areas: "header" "main" "main" "main" "footer";
     }
 
