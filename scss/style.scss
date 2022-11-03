@@ -1,4 +1,5 @@
 @import "./base/reset";
+@import "./utilities/mixins";
 
 
 /*grids**/
@@ -12,7 +13,6 @@
 
 @import "./base/typo";
 @import "./utilities/variable";
-@import "./utilities/mixins";
 @import "./layout/header";
 @import "./layout/main";
 @import "./layout/footer";

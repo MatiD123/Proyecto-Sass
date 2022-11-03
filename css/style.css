@@ -9,8 +9,8 @@
   display: grid;
   height: 100vh;
   width: 100%;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(5, 1fr);
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
   grid-template-areas: "header header header header" "main main main main" "main main main main" "main main main main" "footer footer footer footer"; }
 
 /**
@@ -61,11 +61,11 @@ main {
 
 footer {
   grid-area: footer;
-  background: #FF8008;
   background: linear-gradient(to left, #FFC837, #FF8008);
   margin-top: auto;
   width: 100%;
-  position: bottom; }
+  position: fixed;
+  bottom: 0; }
 
 .container-footer {
   margin: auto; }
@@ -240,7 +240,8 @@ footer {
 .boton-comprar {
   font-size: 1.0rem;
   background-color: wheat;
-  border-radius: 1.0rem; }
+  border-radius: 1.0rem;
+  cursor: pointer; }
 
 .btn-submit {
   width: 100%;
@@ -257,8 +258,8 @@ footer {
   .container-grid {
     height: 100vh;
     width: auto;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     grid-template-areas: "header header header" "main main main" "main main main" "main main main" "footer footer footer"; }
   .menu-icon {
     display: block;
@@ -284,7 +285,7 @@ footer {
     height: 100vh;
     width: auto;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(5, 1fr);
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     grid-template-areas: "header" "main" "main" "main" "footer"; }
   .menu-icon {
     display: block;
