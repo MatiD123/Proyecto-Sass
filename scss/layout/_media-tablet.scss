@@ -1,6 +1,5 @@
 @media (max-width: 768px) {
     .container-grid {
-        height: 100vh;
         width: auto;
         @include grid (1fr 1fr 1fr, 1fr 1fr 1fr 1fr 1fr);
         grid-template-areas: "header header header" "main main main" "main main main" "main main main" "footer footer footer";

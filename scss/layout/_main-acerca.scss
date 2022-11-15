@@ -1,6 +1,7 @@
 .main-acerca {
-    height: 100vh;
     background-image: url(../Assets/fondo5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .acerca-titulo {
@@ -21,4 +22,8 @@
     font-size: 1.0rem;
     font-family: Arial;
     line-height: 1.3rem;
+}
+
+.acerca-img{
+    display: flex;
 }
